@@ -21,6 +21,7 @@
 ## AWS EC2
 - tag name=`DTQEC2CICD`
 - role=`DTQRoleEC2`
+- bootstrap bash=`Choose User Data: for installing required packages.` from `https://github.com/prabhakar2020/aws_code_deploy#steps-for-aws-code-deploy-using-s3-as-source`
 
 ## AWS CodeDeploy
 ### 1) application
@@ -37,6 +38,7 @@
 - name=`DTQPipelineCICD`
 - add src:
 > src from fork repo: `https://github.com/tquangdo/aws_codedeploy_using_github`
+---
 ![addsrc](screenshots/addsrc.png)
 - add build: `skip`
 - add deploy:
