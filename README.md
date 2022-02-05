@@ -5,16 +5,16 @@
 ![Forks](https://img.shields.io/github/forks/tquangdo/aws-ec2-codedeploy-pipeline-startstopserver?color=f05340)
 [![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-ec2-codedeploy-pipeline-startstopserver/issues/new)
 
-![overview](screenshots/overview.png)
+![detail](screenshots/detail.png)
 
 ## reference
 [youtube](https://www.youtube.com/watch?v=KoNWlnx6E1I)
 
 ## AWS IAM Role
-### 1) for CodeDeploy
+### 1) for EC2
 - role name=`DTQRoleEC2`
 - policies=`AmazonS3FullAccess` & `AmazonEC2RoleforAWSCodeDeploy`
-### 2) for EC2
+### 2) for CodeDeploy
 - role name=`DTQRoleCodeDeploy`
 - policies=`AWSCodeDeployRole`
 
