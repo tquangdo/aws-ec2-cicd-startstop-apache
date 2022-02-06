@@ -21,7 +21,10 @@
 ## AWS EC2
 - tag name=`DTQEC2CICD`
 - role=`DTQRoleEC2`
-- bootstrap bash=`Choose User Data: for installing required packages.` from `https://github.com/prabhakar2020/aws_code_deploy#steps-for-aws-code-deploy-using-s3-as-source`
+- bootstrap bash=
+- 1. `Choose User Data: for installing required packages.` from `https://github.com/prabhakar2020/aws_code_deploy#steps-for-aws-code-deploy-using-s3-as-source`
+- 2. https://github.com/justmeandopensource/aws/blob/master/pipeline-demo/quick-ref.md#bootstrap-code-for-installing-codedeploy-agent-on-linux
+> replace region to `us-east-1` like: wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install
 
 ## AWS CodeDeploy
 ### 1) application
