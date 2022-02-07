@@ -73,3 +73,25 @@ res = run_command(cmd, 'codedeploy-agent', 'status')
 ![refresh](screenshots/refresh.png)
 ---
 ![ok2](screenshots/ok2.png)
+
+## note: all provider list in deploy stage
+### 1) CloudFormation
+- action mode has 4 items: `create/update stack` & `delete stack` & `replace stack` & `create/replace change set` & `execute change set` 
+![n_cformation](screenshots/n_cformation.png)
+### 2) CodeDeploy
+- this repo! (more additional 2 items: `Input artifacts` & `Variable namespace`)
+![n_codedeploy](screenshots/n_codedeploy.png)
+### 3) EB
+![n_eb](screenshots/n_eb.png)
+### 4) ECS
+![n_ecs](screenshots/n_ecs.png)
+### 5) ECS blue green
+#### 5-1) AWS console
+![n_ecs_bg](screenshots/n_ecs_bg.png)
+#### 5-2) reference
+![bg_ref1](screenshots/bg_ref1.png)
+---
+- the steps are explained in: [medium](https://medium.com/@shashank070/in-my-previous-blog-i-have-explained-how-to-do-initial-checks-like-code-review-code-build-cddcc21afd9f)
+![bg_ref2](screenshots/bg_ref2.png)
+### 6) S3
+![n_s3](screenshots/n_s3.png)
