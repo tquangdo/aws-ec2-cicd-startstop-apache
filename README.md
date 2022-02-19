@@ -24,10 +24,12 @@
 - bootstrap bash=
 - `Choose User Data: for installing required packages.`
 1. from: https://github.com/prabhakar2020/aws_code_deploy#steps-for-aws-code-deploy-using-s3-as-source
-> sudo service codedeploy-agent status
-> systemctl status codedeploy-agent.service
-> tail -f /var/log/aws/codedeploy-agent/codedeploy-agent.log
 2. from: https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html
+> - check CMD if ERR:
+> - sudo service codedeploy-agent status
+> - systemctl status codedeploy-agent.service
+> - tail -f /var/log/aws/codedeploy-agent/codedeploy-agent.log
+
 
 ## AWS CodeDeploy
 1. ### application
