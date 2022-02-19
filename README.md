@@ -13,7 +13,7 @@
 ## AWS IAM Role
 1. ### for EC2
     - role name=`DTQRoleEC2`
-    - policies=`AmazonS3FullAccess` & `AmazonEC2RoleforAWSCodeDeploy`
+    - policies=`AmazonS3FullAccess`(⚠️⚠️IMPORTANT⚠️⚠️: for CodeDeploy agent!!!) & `AmazonEC2RoleforAWSCodeDeploy`
 1. ### for CodeDeploy
     - role name=`DTQRoleCodeDeploy`
     - policies=`AWSCodeDeployRole`
