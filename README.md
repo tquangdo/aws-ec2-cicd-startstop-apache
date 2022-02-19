@@ -24,7 +24,9 @@
 - bootstrap bash=
 - `Choose User Data: for installing required packages.`
 1. from: https://github.com/prabhakar2020/aws_code_deploy#steps-for-aws-code-deploy-using-s3-as-source
-> => ERR without change region like: `wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install`!!!
+> sudo service codedeploy-agent status
+> systemctl status codedeploy-agent.service
+> tail -f /var/log/aws/codedeploy-agent/codedeploy-agent.log
 2. from: https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html
 
 ## AWS CodeDeploy
