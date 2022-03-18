@@ -1,9 +1,9 @@
-# aws-ec2-codedeploy-pipeline-startstopserver 🐳
+# aws-ec2-codedeploy-pipeline-startstop-apache 🐳
 
-![Stars](https://img.shields.io/github/stars/tquangdo/aws-ec2-codedeploy-pipeline-startstopserver?color=f05340)
-![Issues](https://img.shields.io/github/issues/tquangdo/aws-ec2-codedeploy-pipeline-startstopserver?color=f05340)
-![Forks](https://img.shields.io/github/forks/tquangdo/aws-ec2-codedeploy-pipeline-startstopserver?color=f05340)
-[![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-ec2-codedeploy-pipeline-startstopserver/issues/new)
+![Stars](https://img.shields.io/github/stars/tquangdo/aws-ec2-codedeploy-pipeline-startstop-apache?color=f05340)
+![Issues](https://img.shields.io/github/issues/tquangdo/aws-ec2-codedeploy-pipeline-startstop-apache?color=f05340)
+![Forks](https://img.shields.io/github/forks/tquangdo/aws-ec2-codedeploy-pipeline-startstop-apache?color=f05340)
+[![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-ec2-codedeploy-pipeline-startstop-apache/issues/new)
 
 ![detail](screenshots/detail.png)
 
@@ -62,10 +62,10 @@
     1. #### NG!!!
         - ERR:
         ![err](screenshots/err.png)
-        - reason: `wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install` can NOT install code deploy agent!!!
+        - reason: `wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install` can NOT install code deploy agent due to missing `AmazonS3FullAccess` policy!!!
         ```rb
         ...
-        res = run_command(cmd, 'codedeploy-agent', 'status')
+        res = run_command(cmd, 'codedeploy-agent', 'status') // src code in wget URL
         ```
     1. #### OK (💣💣💣!!!)
         ![ok](screenshots/ok.png)
