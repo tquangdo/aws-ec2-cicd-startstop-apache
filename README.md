@@ -43,6 +43,7 @@
     - uncheck `Enable load balancing`
 
 ## AWS CodePipeline
+[cicd](https://docs.google.com/spreadsheets/d/1m8LuBQUzqIQ0bJYb3NJZOT4iSb78xUEG/edit#gid=1878281573&range=B3)
 1. ### config
     - name=`DTQPipelineCICD`
     - add src:
@@ -95,6 +96,7 @@
     1. #### AWS console
         ![n_ecs_bg](screenshots/n_ecs_bg.png)
     1. #### reference
+        [cicd](https://docs.google.com/spreadsheets/d/1m8LuBQUzqIQ0bJYb3NJZOT4iSb78xUEG/edit#gid=1878281573&range=B4)
         - REF: the steps are explained in: [medium](https://medium.com/@shashank070/in-my-previous-blog-i-have-explained-how-to-do-initial-checks-like-code-review-code-build-cddcc21afd9f)
         ![bg_ref2](screenshots/bg_ref2.jpeg)
 1. ### S3
