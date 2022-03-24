@@ -95,10 +95,7 @@
     1. #### AWS console
         ![n_ecs_bg](screenshots/n_ecs_bg.png)
     1. #### reference
-        - REF1:
-        ![bg_ref1](screenshots/bg_ref1.png)
-        ---
-        - REF2: the steps are explained in: [medium](https://medium.com/@shashank070/in-my-previous-blog-i-have-explained-how-to-do-initial-checks-like-code-review-code-build-cddcc21afd9f)
+        - REF: the steps are explained in: [medium](https://medium.com/@shashank070/in-my-previous-blog-i-have-explained-how-to-do-initial-checks-like-code-review-code-build-cddcc21afd9f)
         ![bg_ref2](screenshots/bg_ref2.jpeg)
 1. ### S3
     ![n_s3](screenshots/n_s3.png)
