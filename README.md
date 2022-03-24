@@ -1,9 +1,9 @@
-# aws-ec2-codedeploy-pipeline-startstop-apache 🐳
+# aws-ec2-cicd-startstop-apache 🐳
 
-![Stars](https://img.shields.io/github/stars/tquangdo/aws-ec2-codedeploy-pipeline-startstop-apache?color=f05340)
-![Issues](https://img.shields.io/github/issues/tquangdo/aws-ec2-codedeploy-pipeline-startstop-apache?color=f05340)
-![Forks](https://img.shields.io/github/forks/tquangdo/aws-ec2-codedeploy-pipeline-startstop-apache?color=f05340)
-[![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-ec2-codedeploy-pipeline-startstop-apache/issues/new)
+![Stars](https://img.shields.io/github/stars/tquangdo/aws-ec2-cicd-startstop-apache?color=f05340)
+![Issues](https://img.shields.io/github/issues/tquangdo/aws-ec2-cicd-startstop-apache?color=f05340)
+![Forks](https://img.shields.io/github/forks/tquangdo/aws-ec2-cicd-startstop-apache?color=f05340)
+[![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-ec2-cicd-startstop-apache/issues/new)
 
 ![detail](screenshots/detail.png)
 
